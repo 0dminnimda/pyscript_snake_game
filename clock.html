@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PyScript Clock Example</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <style>
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+canvas {
+    border: 1px solid white;
+    background-color:#181a1b;
+}
+    </style>
+</head>
+
+<body>
+    <div id="status">Loading page ...</div>
+    <br>
+
+    <div class="align">
+        <img src="./arrows.png"></img>
+    </div>
+    <br>
+    <div class="align">
+        <canvas id="board"></canvas>
+    </div>
+    <br>
+    <div class="align">
+        <button type="button" id="button">RESTART</button>
+    </div>
+
+    <py-script src="./clock.py"></script>
+    <!--<script type="py" src="./clock.py"></script>-->
+</body>
+</html>
