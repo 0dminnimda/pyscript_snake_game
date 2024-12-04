@@ -1,6 +1,6 @@
 # Pyscript Snake Game
 
-To play just open up this link.
+To play just open up [this link](https://0dminnimda.github.io/pyscript_snake_game/).
 
 Here's an example:
 
